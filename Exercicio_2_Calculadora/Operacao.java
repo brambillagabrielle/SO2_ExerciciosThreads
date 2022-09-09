@@ -2,11 +2,13 @@ package Exercicio_2_Calculadora;
 
 public class Operacao {
     
-    private int valor_1;
-    private int valor_2;
+    private int valor_1, valor_2;
     private String operacao;
-
-    public Operacao() {
+    
+    public Operacao(int valor_1, int valor_2, String operacao) {
+        this.valor_1 = valor_1;
+        this.valor_2 = valor_2;
+        this.operacao = operacao;
     }
 
     public int getValor_1() {
